@@ -1,27 +1,13 @@
-// const title = document.getElementById("title");
-// title.innerHTML = "Hi! From JS";
-// title.style.color = "red";
-// // console.log(title);
-// // console.dir(title);
-// // console.dir(document);
-// document.title = "I own you";
+// prompt("ask something");
 
-// const title = document.querySelector("#title");
-// title.innerHTML = "Hi! From JS";
-// title.style.color = "red";
-// document.title = "I own you";
+// const age = prompt("How old are you?");
+// console.log(age);
 
-// const title = document.querySelector("#title");
-// function handleResize(event) {
-//   //상세내용 호출
-//   console.log(event); //상세내용 호출
+// const age = prompt("How old are you?");
+// if (age > 18 && age < 21) {
+//   console.log("you can drink but you should not");
+// } else if (age > 21) {
+//   console.log("go ahead");
+// } else {
+//   console.log("too young");
 // }
-
-// window.addEventListener("resize", handleResize);
-
-const title = document.querySelector("#title");
-function handleClick() {
-  title.style.color = "blue";
-}
-
-window.addEventListener("click", handleClick);
